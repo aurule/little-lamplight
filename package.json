@@ -27,6 +27,7 @@
     "test": "npm run test:unit -- --run"
   },
   "dependencies": {
+    "@internationalized/date": "^3.12.1",
     "bits-ui": "^2.18.0"
   }
 }
