@@ -1,5 +1,9 @@
 {
   "packageManager": "yarn@4.14.1",
+  "name": "little-lamplight",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/kit": "^2.57.1",
@@ -7,7 +11,22 @@
     "@types/node": "^25.6.0",
     "svelte": "^5.55.4",
     "typescript": "^6.0.3",
-    "vite": "^8.0.9"
+    "vite": "^8.0.9",
+    "vitest": "^4.1.5"
   },
-  "type": "module"
+  "scripts": {
+    "live": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "format": "prettier --write .",
+    "lint": "prettier --check . && eslint .",
+    "test:unit": "vitest",
+    "test": "npm run test:unit -- --run"
+  },
+  "dependencies": {
+    "bits-ui": "^2.18.0"
+  }
 }
