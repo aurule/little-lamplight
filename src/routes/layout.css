@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+body {
+  background-color: white;
+  color: var(--color-black);
+  padding: 0 5rem;
+}
+
+h1 {
+  font-size: var(--text-2xl);
+}
+
+hr {
+  color: var(--color-gray-600);
+  margin: 1rem;
+}
+
+nav a {
+  margin-right: 0.5rem;
+}

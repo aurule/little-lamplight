@@ -1,4 +1,4 @@
-<h1 class="text-3xl font-bold underline">Little Lamplight</h1>
+<h1>Little Lamplight</h1>
 
 <p>
   Sixty leagues west of the free city Trieste, Little Lamp Light sits at the tip of a north flowing inlet off the Adriatic Sea. Its west bank holds a garrison of troops from the Holy Roman empire. Its east bank holds another garrison, controlled by the Ottoman Empire. At the Northern most tip of the town sits the Wayward, a three-story manor home with over thirty rooms. It is the home of many orphaned children, and the home base of the changelings who call Little Lamplight their home.
