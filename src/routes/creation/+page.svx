@@ -1,0 +1,27 @@
+<script>
+    import DownloadButton from "$lib/DownloadButton.svelte"
+</script>
+
+# Character Creation
+
+<DownloadButton url="%sveltekit.assets%/Little Lamp Light Character Creation.docx">Download creation rules (.docx)</DownloadButton>
+
+<DownloadButton url="%sveltekit.assets%/Dark Ages Changeling 2pg.pdf">Download PDF Character Sheet</DownloadButton>
+<DownloadButton url="%sveltekit.assets%/Dark Ages Changeling Sheet in Excel.pdf">Download Excel Character Sheet (.xlsx)</DownloadButton>
+
+All Character creation rules are standard except for the following.
+
+- **Attributes:** (5/4/3) No attributes may start above 4.
+- **Skills:** (11/7/4) No skill may start above 3.
+- **Courts:** Only the seasonal courts (Winter, Spring, Summer, and Autumn) are available.
+- **Contracts:** You get 5 dots of contracts. Two of the ones you take must be affinity for your Seeming or Court. No contract may start above 3.
+- **Merits:** You get 10 merit points. No merit may start above 3 dots. All merits must be appropriate for the time period. Note that there are changes to merits in the [house rules](/rules).
+- **Clarity:** Starting Clarity will be determined after the character's background and durance are submitted. I would like to have a one-on-one so we can work out together what the appropriate starting clarity will be for your character.
+- **Background and Durance:** 20 experience will be granted to all players upon submission of your characters background and durance. Things I would like know about your character:
+    + Who were you when you were taken?
+    + How were you taken?
+    + What was life like for you in Arcadia?
+    + How did you escape?
+    + What was the memory that reminded you of the real world?
+    + How long were you there and how long have to been out?
+    + Please have your background and durance submitted by May 3, 2026 along with a copy of your character sheet. Characters created after game start can ignore this deadline.
