@@ -1,26 +1,28 @@
 {
-  "packageManager": "yarn@4.14.1",
+  "packageManager": "yarn@4.17.0",
   "name": "little-lamplight",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.10",
-    "@sveltejs/kit": "^2.57.1",
-    "@sveltejs/vite-plugin-svelte": "^7.0.0",
-    "@tailwindcss/typography": "^0.5.19",
-    "@tailwindcss/vite": "^4.2.2",
-    "@types/node": "^25.6.0",
+    "@sveltejs/kit": "^2.69.0",
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "@tailwindcss/typography": "^0.5.20",
+    "@tailwindcss/vite": "^4.3.2",
+    "@types/node": "^25.9.4",
     "mdsvex": "^0.12.7",
-    "svelte": "^5.55.4",
-    "tailwindcss": "^4.2.2",
+    "svelte": "^5.56.4",
+    "tailwindcss": "^4.3.2",
     "typescript": "^6.0.3",
-    "vite": "^8.0.9",
-    "vitest": "^4.1.5"
+    "vite": "^8.1.3",
+    "vitest": "^4.1.9",
+    "wrangler": "^4.107.0"
   },
   "scripts": {
     "live": "vite dev",
     "build": "vite build",
+    "deploy": "vite build && wrangler deploy",
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -31,8 +33,8 @@
     "test": "npm run test:unit -- --run"
   },
   "dependencies": {
-    "@internationalized/date": "^3.12.1",
-    "@lucide/svelte": "1.3.0",
-    "bits-ui": "^2.18.0"
+    "@internationalized/date": "^3.12.2",
+    "@lucide/svelte": "1.23.0",
+    "bits-ui": "^2.18.1"
   }
 }
