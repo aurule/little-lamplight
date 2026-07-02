@@ -1,3 +1,7 @@
+<script lang="tx">
+  import DownloadButton from "$lib/DownloadButton.svelte"
+</script>
+
 <h1>Little Lamplight</h1>
 
 <p>

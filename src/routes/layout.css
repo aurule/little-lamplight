@@ -1,6 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+:root {
+  --bg-primary: #008C45;
+  --bg-primary-dark: #00381c;
+}
+
 body {
   background-color: white;
   color: var(--color-black);
@@ -9,10 +14,12 @@ body {
 
 h1 {
   font-size: var(--text-2xl);
+  margin-bottom: 0.75rem;
 }
 
 h2 {
   font-size: var(--text-xl);
+  margin: 0.5rem 0;
 }
 
 p {
@@ -24,6 +31,30 @@ hr {
   margin: 1rem;
 }
 
-nav a {
-  margin-right: 0.5rem;
+nav a:hover {
+  text-decoration: underline;
+  color: #008C45;
+}
+
+.bg-green {
+  background-color: #008C45;
+}
+
+.bg-green-dark {
+  background-color: #00381c;
+}
+
+@counter-style rating {
+  system: additive;
+  additive-symbols: 1 '\2022';
+  suffix: ' ';
+}
+
+ol.rating {
+  list-style-type: rating;
+  list-style-position: inside;
+
+  li {
+    margin-left: ;
+  }
 }

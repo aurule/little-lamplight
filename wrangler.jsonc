@@ -1,0 +1,10 @@
+{
+    "name": "Little Lamplight",
+    "compatibility_date": "2026-07-02",
+    "assets": {
+        "directory": "build"
+    },
+    "observability": {
+        "enabled": true
+    }
+}
