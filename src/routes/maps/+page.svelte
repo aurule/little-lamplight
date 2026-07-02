@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Maps | Little Lamplight</title>
+</svelte:head>
+
 <h1>Hedge Maps</h1>
 
 <p>

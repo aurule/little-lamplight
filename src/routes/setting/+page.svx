@@ -2,6 +2,11 @@
   import DownloadButton from "$lib/DownloadButton.svelte"
 </script>
 
+<svelte:head>
+  <title>Setting | Little Lamplight</title>
+</svelte:head>
+
+
 # The Setting
 
 <DownloadButton url="Opening_game_overview.docx">Download the overview (.docx)</DownloadButton>

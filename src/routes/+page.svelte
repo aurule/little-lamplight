@@ -2,6 +2,10 @@
   import DownloadButton from "$lib/DownloadButton.svelte"
 </script>
 
+<svelte:head>
+  <title>Home | Little Lamplight</title>
+</svelte:head>
+
 <h1>Little Lamplight</h1>
 
 <p>

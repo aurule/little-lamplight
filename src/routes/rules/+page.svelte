@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Rules | Little Lamplight</title>
+</svelte:head>
+
 <h1>House Rules</h1>
 
 Little Lamplight has a few new rules to keep in mind:

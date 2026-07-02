@@ -2,6 +2,11 @@
   import DownloadButton from "$lib/DownloadButton.svelte"
 </script>
 
+<svelte:head>
+  <title>Character Creation | Little Lamplight</title>
+</svelte:head>
+
+
 # Character Creation
 
 - <DownloadButton url="/Little_Lamp_Light_Character_Creation.docx">Download creation rules (.docx)</DownloadButton>
