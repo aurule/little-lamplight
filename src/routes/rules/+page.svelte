@@ -2,7 +2,7 @@
 
 Little Lamplight has a few new rules to keep in mind:
 
-<h2>New Merit: Changeling Lore</h2>
+<h2 id="changeling-lore">New Merit: Changeling Lore</h2>
 
 Specific knowledge about seeming’s, Kith’s, and courts.
 
@@ -13,7 +13,7 @@ Specific knowledge about seeming’s, Kith’s, and courts.
 <li>You know the abilities of different courts, and of specific Entitlements.</li>
 </ol>
 
-<h2>New Merit: Hedge Lore</h2>
+<h2 id="hedge-lore">New Merit: Hedge Lore</h2>
 
 Specific knowledge about the hedge, this merit cannot be purchased past 1 dot without contracts of the dream (pathfinder).
 

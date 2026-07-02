@@ -6,7 +6,7 @@
 
 - <DownloadButton url="/Little_Lamp_Light_Character_Creation.docx">Download creation rules (.docx)</DownloadButton>
 - <DownloadButton url="/Dark_Ages_Changeling_2pg.pdf">Download PDF Character Sheet (.pdf)</DownloadButton>
-- <DownloadButton url="/Dark_Ages_Changeling_Sheet_in_Excel.pdf">Download Excel Character Sheet (.xlsx)</DownloadButton>
+- <DownloadButton url="/Dark_Ages_Changeling_Sheet_in_Excel.xlsx">Download Excel Character Sheet (.xlsx)</DownloadButton>
 
 Please have your background and durance submitted by July 12, 2026 along with a copy of your character sheet. Characters created after game start can ignore this deadline.
 
