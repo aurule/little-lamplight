@@ -7,7 +7,7 @@
 <nav class="border rounded border-black p-1 m-3 flex gap-4 justify-center">
 	<a href="/">Home</a>
 	<a href="/setting">Setting</a>
-	<a href="/maps">Hedge Maps</a>
+	<a href="/maps">Maps</a>
 	<a href="/rules">House Rules</a>
 	<a href="/creation">Character Creation</a>
 </nav>

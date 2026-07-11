@@ -1,9 +1,14 @@
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vitest/config';
 import { sveltekit } from '@sveltejs/kit/vite';
+import { enhancedImages } from '@sveltejs/enhanced-img'
 
 export default defineConfig({
-  plugins: [tailwindcss(), sveltekit()],
+  plugins: [
+    tailwindcss(), 
+    enhancedImages(),
+    sveltekit(),
+  ],
   server: { fs: { allow: ['..'] } },
   test: {
     expect: { requireAssertions: true },
