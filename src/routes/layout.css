@@ -36,6 +36,14 @@ nav a:hover {
   color: #008C45;
 }
 
+a {
+  color: #008C45;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .bg-green {
   background-color: #008C45;
 }

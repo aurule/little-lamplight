@@ -10,7 +10,11 @@
 </a>
 
 <style>
-  a:hover {
-    background-color: var(--bg-primary-dark);
+  a {
+    color: white;
+
+    &:hover {
+      background-color: var(--bg-primary-dark);
+    }
   }
 </style>
