@@ -3,9 +3,18 @@
 </script>
 
 <svelte:head>
-  <title>Character Creation | Little Lamplight</title>
+  <title>Character Rules | Little Lamplight</title>
 </svelte:head>
 
+# Character Growth
+
+Characters gain 4 experience for attending a session and submitting their writeup.
+
+Writeups are done immediately after the session ends before everyone leaves. As part of your writeup, give kudos to one or more players who did a great job embodying their court's emotions or goals. These will go toward that character [gaining Mantle](/rules#court-mantle).
+
+Any sheet change that doesn't feel good in play can be altered or undone by talking with the STs within three sessions.
+
+At the start of each session, each character's initial glamour is determined by rolling 1d10, then adding one glamour for every dot in the Harvest or [Garden](/rules#hollows) merit. Harvesting glamour during play is done with a short scene.
 
 # Character Creation
 
