@@ -19,7 +19,7 @@ All Character creation rules are standard except for the following.
 
 **Attributes:** (5/4/3) All attributes start with the first dot free. No attributes may start above 4.
 
-**Skills:** (11/7/4) No skill may start above 3.
+**Skills:** (11/7/4) No skill may start above 3. In order to be literate, you must have at least one dot in Academics.
 
 **Courts:** Only the seasonal courts (Winter, Spring, Summer, and Autumn) are available.
 
