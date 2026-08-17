@@ -1,5 +1,5 @@
-<script lang="tx">
-  import DownloadButton from "$lib/DownloadButton.svelte"
+<script lang="ts">
+  import { ExternalLink } from "@lucide/svelte"
 </script>
 
 <svelte:head>
@@ -16,4 +16,8 @@
 
 <p>
   This site has info about the Little Lamplight LARP game. From <a href="/setting">setting info</a> to <a href="/rules">house rules</a>, you can find all the resources you need. If there's something you <em>can't</em> find, please tell Dan or Paige on Discord!
+</p>
+
+<p>
+  Discussion typically happens on the <a href="https://discord.com/channels/1071483233994285186/1094330856249765948" target="_blank" class="inline-flex items-center gap-1">Little Lamplight Discord server <ExternalLink size={16} /></a>.
 </p>
