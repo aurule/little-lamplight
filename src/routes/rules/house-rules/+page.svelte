@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Rules | Little Lamplight</title>
+  <title>House Rules | Little Lamplight</title>
 </svelte:head>
 
 <h1>House Rules</h1>
@@ -10,7 +10,7 @@
 
 <p>Specific knowledge about seeming’s, Kith’s, and courts.</p>
 
-<ol class="my-4 rating">
+<ol class="my-4 list-nwod">
   <li>You understand Seemings and Kiths. Pledges and Oaths and why they are necessary but dangerous. You understand how glamour is harvested, clarity and why it is important, the Mask and its purpose with mortals. You have knowledge of what contracts your own seeming and kith can provide as well as universal contracts.</li>
   <li>You understand the purpose of the courts and constant change. You are familiar with Seeming and Kith contracts outside of your own.</li>
   <li>You are aware there are different court structures out there and how they work. You are aware of Entitlements.</li>
@@ -23,7 +23,7 @@
 
 <p>Each point of Hedge Lore adds +1 die to all Survival rolls made within the Hedge.</p>
 
-<ol class="my-4 rating">
+<ol class="my-4 list-nwod">
   <li>Knowledge of hedge gates, Trod’s and basic theories of the hedge</li>
   <li>Basic knowledge of the local hedge layout, basic hedge fruits, hobs, and hedge beasts, goblin contracts.</li>
   <li>You know where the local hedge market is and how to get in. Specific knowledge about local hobs, hedge fruit, hedge beasts. Advanced knowledge of the local hedge including shortcuts and dangerous areas.</li>

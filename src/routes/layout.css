@@ -1,5 +1,6 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+@plugin "daisyui";
 
 :root {
   --bg-primary: #008C45;
@@ -7,19 +8,19 @@
 }
 
 body {
-  background-color: white;
-  color: var(--color-black);
   padding: 0 5rem;
 }
 
 h1 {
   font-size: var(--text-2xl);
   margin-bottom: 0.75rem;
+  font-weight: 700;
 }
 
 h2 {
   font-size: var(--text-xl);
-  margin: 0.5rem 0;
+  margin: 1.5rem 0 0.5rem 0;
+  font-weight: 500;
 }
 
 p {
@@ -52,19 +53,15 @@ a {
   background-color: #00381c;
 }
 
-@counter-style rating {
+@counter-style nwod {
   system: additive;
   additive-symbols: 1 '\2022';
   suffix: ' ';
 }
 
-ol.rating {
-  list-style-type: rating;
+.list-nwod {
+  list-style-type: nwod;
   list-style-position: inside;
-
-  li {
-    margin-left: ;
-  }
 }
 
 @media (max-width: 768px) {

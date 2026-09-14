@@ -1,7 +1,7 @@
 <script lang="ts">
-  import './layout.css';
   import Navigation from "./components/Navigation.svelte"
   import { setContext } from 'svelte';
+  import './layout.css';
 
   let { children } = $props();
 

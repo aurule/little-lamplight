@@ -1,65 +1,38 @@
-<script lang="ts">
-  import { getContext } from "svelte";
-  import { page } from "$app/state"
-  import { DropdownMenu } from "bits-ui";
-  import { ChevronDown, ChevronUp } from "@lucide/svelte";
+<div class="navbar bg-base-100 shadow-md">
+  <div class="navbar-start">
+  </div>
+  <div class="navbar-center">
+    <a href="/" class="p-2 btn btn-ghost">Home</a>
+    <div class="megamenu max-sm:megamenu-vertical items-center justify-center" id="my-megamenu-1" popover>
+      <span class="megamenu-active"></span>
 
-  let isMobile: CallableFunction = getContext("isMobile")
+      <button popovertarget="a1">Setting</button>
+      <div id="a1" popover>
+        <ul class="menu">
+          <li><a href="/setting/lamplight">Little Lamplight</a></li>
+          <li><a href="/setting/hedge">The Hedge</a></li>
+        </ul>
+      </div>
 
-  const links = new Map<string, string>([
-    ["/", "Home"],
-    ["/setting", "Setting"],
-    ["/maps", "Maps"],
-    ["/rules", "House Rules"],
-    ["/characters", "Character Rules"],
-  ])
+      <button popovertarget="a2">Pledges</button>
+      <div id="a2" popover>
+        <ul class="menu">
+          <li><a href="/pledges/freehold">The Freehold Pledge</a></li>
+          <li><a href="/pledges/worksheet">Pledge Building Worksheet</a></li>
+        </ul>
+      </div>
 
-  let current_path = $derived(page.url.pathname)
-  let current_label = $derived(links.get(current_path))
-  let open = $state(false)
-</script>
-
-{#if isMobile()}
-  <DropdownMenu.Root bind:open>
-    <DropdownMenu.Trigger class="w-5/6 min-w-50 mx-auto block">
-      <nav class="current border rounded border-black bg-white p-1 m-3 flex gap-2 justify-center items-center block">
-        {current_label}
-        {#if open}
-          <ChevronUp size={16} />
-        {:else}
-          <ChevronDown size={16} />
-        {/if}
-      </nav>
-    </DropdownMenu.Trigger>
-    <DropdownMenu.Portal>
-      <DropdownMenu.Content class="w-5/6 min-w-50">
-        <div class="border rounded border-black p-2 bg-white min-w-50">
-          {#each links.entries() as [path, label] (path)}
-            {#if current_path != path}
-              <DropdownMenu.Item>
-                <a class="block w-full" href={path}>{label}</a>
-              </DropdownMenu.Item>
-            {/if}
-          {/each}
-        </div>
-      </DropdownMenu.Content>
-    </DropdownMenu.Portal>
-  </DropdownMenu.Root>
-{:else}
-  <nav class="border rounded border-black p-1 m-3 flex gap-4 justify-center">
-    {#each links.entries() as [path, label] (path)}
-      {#if current_path == path}
-        <span class="current underline">{label}</span>
-      {:else}
-        <a href={path}>{label}</a>
-      {/if}
-    {/each}
-  </nav>
-{/if}
-
-<style>
-  .current {
-    color: #008C45;
-    cursor: default;
-  }
-</style>
+      <button popovertarget="a3">Rules</button>
+      <div id="a3" popover>
+        <ul class="menu">
+          <li><a href="/rules/house-rules">House Rules</a></li>
+          <li><a href="/rules/cheat-sheet/combat">Combat cheat Sheet</a></li>
+          <li><a href="/rules/growth">Character Growth</a></li>
+          <li><a href="/rules/creation">Character Creation</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="navbar-end"></div>
+  <button class="btn sm:hidden" popovertarget="my-megamenu-1">Menu</button>
+</div>
