@@ -1,7 +1,7 @@
 <script>
   import DownloadButton from "$lib/components/DownloadButton.svelte"
-  import italyMap from "$lib/maps/Fantasy Italy.png?enhanced"
-  import townMap from "$lib/maps/Little Lamplight.png?enhanced"
+  import italyMap from "$lib/maps/Fantasy Italy.png"
+  import townMap from "$lib/maps/Little Lamplight.png"
 </script>
 
 <svelte:head>
@@ -10,7 +10,7 @@
 
 <h1>The Town of Little Lamplight</h1>
 
-<DownloadButton url="Opening_game_overview.docx">Download the overview (.docx)</DownloadButton>
+<DownloadButton url="/Opening_game_overview.docx">Download the overview (.docx)</DownloadButton>
 
 <p>Sixty leagues west of the free city Trieste, Little Lamp Light sits at the tip of a north flowing inlet off the Adriatic Sea.  Its west bank holds a garrison of troops from the Holy Roman empire. Captain Ippolita Sforza, commander of The Order of the Golden Fleece, said to be the great grandson of Phillip the Great, commands here. Its east bank holds another garrison, controlled by the Ottoman Empire, Admiral Hayreddin Barbarossa at its head.</p>
 

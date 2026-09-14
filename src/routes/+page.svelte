@@ -15,7 +15,7 @@
 <hr />
 
 <p>
-  This site has info about the Little Lamplight LARP game. From <a href="/setting">setting info</a> to <a href="/rules">house rules</a>, you can find all the resources you need. If there's something you <em>can't</em> find, please tell Dan or Paige on Discord!
+  This site has info about the Little Lamplight LARP game. From <a href="/setting/lamplight">setting info</a> to <a href="/rules/house-rules">house rules</a>, you can find all the resources you need. If there's something you <em>can't</em> find, please tell Dan or Paige on Discord!
 </p>
 
 <p>
