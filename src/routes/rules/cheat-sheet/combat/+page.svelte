@@ -4,7 +4,7 @@
 
 <h1>Combat Cheat Sheet</h1>
 
-<p>A quick reference for fighting.</p>
+<p>A quick reference for fighting, compiled by Wade.</p>
 
 <h2>The Basics</h2>
 
