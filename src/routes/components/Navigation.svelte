@@ -11,6 +11,7 @@
         <ul class="menu">
           <li><a href="/setting/lamplight">Little Lamplight</a></li>
           <li><a href="/setting/hedge">The Hedge</a></li>
+          <li><a href="/setting/glossary">Glossary</a></li>
         </ul>
       </div>
 
