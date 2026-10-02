@@ -3,6 +3,8 @@
 @plugin "daisyui";
 
 :root {
+  --green-bright: #008C45;
+  --green-dark: #00381c;
   --bg-primary: #008C45;
   --bg-primary-dark: #00381c;
 }
@@ -34,11 +36,11 @@ hr {
 
 nav a:hover {
   text-decoration: underline;
-  color: #008C45;
+  color: var(--green-bright);
 }
 
 a {
-  color: #008C45;
+  color: var(--green-bright);
 
   &:hover {
     text-decoration: underline;
@@ -46,11 +48,11 @@ a {
 }
 
 .bg-green {
-  background-color: #008C45;
+  background-color: var(--green-bright);
 }
 
 .bg-green-dark {
-  background-color: #00381c;
+  background-color: var(--green-dark);
 }
 
 @counter-style nwod {
