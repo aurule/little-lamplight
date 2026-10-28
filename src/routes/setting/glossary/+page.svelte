@@ -19,6 +19,20 @@
     Arcadia, the realm of the <a href="#dein-tuffel">dein tuffel</a>.
   </dd>
 
+  <dt id="goblin">Goblin</dt>
+  <dd>
+    <span class="pronunciation"><em>gob</em>-linn</span>
+    <span class="part">noun</span>
+    Non-human creatures who seem to live solely within the hedge. Some are quite mercantile and run the local <a href="#goblin-market">goblin market</a>.
+  </dd>
+
+  <dt id="goblin-market">Goblin Market</dt>
+  <dd>
+    <span class="pronunciation"><em>gob</em>-linn <em>mark</em>-it</span>
+    <span class="part">noun</span>
+    A marketplace for buying and selling magical esoterica, run by <a href="#goblin">goblins</a>. The market accessible to Little Lamplight takes place periodically on a floatilla of platforms in the hedge's equivalent to the bay.
+  </dd>
+
   <dt id="oath">Oath</dt>
   <dd>
     <span class="part">noun</span>
