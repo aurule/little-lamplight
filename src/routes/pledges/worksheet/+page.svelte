@@ -221,7 +221,7 @@
         </tr>
         <tr>
           <th rowspan="3" class="w-3xs">
-            Alliance
+            Blessing
             <p class="font-normal">Can only increase non-supernatural merits.</p></th>
           <td>Lesser</td>
           <td>Grant a mortal a new 1- or 2-dot merit, or increase an existing merit by 1 dot. Grant a supernatural creature a new 1-dot merit, or increase an existing merit by 1 dot.</td>
