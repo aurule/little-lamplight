@@ -94,7 +94,7 @@
   }
 
   .note {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: var(--color-gray-400);
 
     &:before {
