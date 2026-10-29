@@ -27,6 +27,7 @@
       <div id="a3" popover>
         <ul class="menu">
           <li><a href="/rules/house-rules">House Rules</a></li>
+          <li><a href="/rules/house-rules/token-making">Making Tokens</a></li>
           <li><a href="/rules/cheat-sheet/combat">Combat cheat Sheet</a></li>
           <li><a href="/rules/growth">Character Growth</a></li>
           <li><a href="/rules/creation">Character Creation</a></li>
