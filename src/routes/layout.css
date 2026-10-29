@@ -14,12 +14,18 @@ body {
 }
 
 h1 {
-  font-size: var(--text-2xl);
+  font-size: var(--text-3xl);
   margin-bottom: 0.75rem;
   font-weight: 700;
 }
 
 h2 {
+  font-size: var(--text-2xl);
+  margin: 1.5rem 0 0.5rem 0;
+  font-weight: 500;
+}
+
+h3 {
   font-size: var(--text-xl);
   margin: 1.5rem 0 0.5rem 0;
   font-weight: 500;
